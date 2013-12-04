@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Routing;
+using AppHarborTest.Models;
 
 namespace AppHarborTest
 {
@@ -14,6 +15,9 @@ namespace AppHarborTest
     {
         protected void Application_Start()
         {
+            //System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseAlways<AppHarborTest.Models.StepContext>());
+            System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseAlways<AppHarborTest.Models.DefaultContext>());
+
             AreaRegistration.RegisterAllAreas();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);
