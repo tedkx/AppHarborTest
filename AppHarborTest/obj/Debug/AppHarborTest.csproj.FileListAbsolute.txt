@@ -30,3 +30,6 @@ C:\Users\tedk\Dev\AppHarborTest\AppHarborTest\bin\System.Web.WebPages.Razor.xml
 C:\Users\tedk\Dev\AppHarborTest\AppHarborTest\obj\Debug\AppHarborTest.csprojResolveAssemblyReference.cache
 C:\Users\tedk\Dev\AppHarborTest\AppHarborTest\obj\Debug\AppHarborTest.dll
 C:\Users\tedk\Dev\AppHarborTest\AppHarborTest\obj\Debug\AppHarborTest.pdb
+C:\Users\tedk\Dev\AppHarborTest\AppHarborTest\bin\AppfailReporting.dll
+C:\Users\tedk\Dev\AppHarborTest\AppHarborTest\bin\AppfailReporting.Mvc.dll
+C:\Users\tedk\Dev\AppHarborTest\AppHarborTest\bin\WebActivator.dll

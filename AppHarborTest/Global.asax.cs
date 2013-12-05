@@ -16,7 +16,7 @@ namespace AppHarborTest
         protected void Application_Start()
         {
             //System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseAlways<AppHarborTest.Models.StepContext>());
-            System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseAlways<AppHarborTest.Models.DefaultContext>());
+            //System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseIfModelChanges<AppHarborTest.Models.DefaultContext>());
 
             AreaRegistration.RegisterAllAreas();
 
