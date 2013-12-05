@@ -14,7 +14,8 @@ namespace AppHarborTest.Models
         // 
         // System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseIfModelChanges<AppHarborTest.Models.DefaultContext>());
 
-        public DefaultContext() : base(System.Configuration.ConfigurationManager.ConnectionStrings["DefaultContext"].ConnectionString)
+        public DefaultContext()
+            : base(System.Configuration.ConfigurationManager.ConnectionStrings["DefaultContextHarbor"].ConnectionString)
         {
             if (Steps.Count() == 0) { InitData(); }
         }
