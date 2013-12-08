@@ -1,0 +1,50 @@
+﻿html, body  
+{
+    margin:0;padding:0;
+}
+
+body 
+{
+    background:url('debut_light.png') left top ;
+}
+
+#container 
+{
+    padding-top:75px;width:800px;
+}
+
+#logo 
+{
+    text-align:center; width:500px;font-family: 'Seaweed Script', cursive;font-size:100px;color:#5BC0DE;font-style:italic;font-weight:bold;
+    text-shadow: rgb(255, 255, 255) 1px 1px 1px;
+}
+
+.center { margin:0 auto; }
+
+#sections  
+{
+    position:relative;height:75px;border-top:solid 1px #999;border-bottom:solix 1px #999;padding:10px 0px 10px 0px;overflow:hidden; 
+}
+.section  
+{
+    position:absolute;top:10px; 
+}
+.sectionname { float:left; }
+.sectioncircle  
+{
+    height:55px;width:55px;border-radius: 55px;-moz-border-radius: 55px;-webkit-border-radius: 55px; background:#EEE;float:left;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.2); box-shadow: inset 0 1px 1px rgba(0,0,0,0.2);
+}
+.sectionsubcircle  
+{
+    margin:5px;height:35px;width:35px;border-radius: 35px;-moz-border-radius: 35px;-webkit-border-radius: 35px;
+    
+    
+}
+#steps { position:relative;height:75px; }
+.step { position:absolute;top:0px; }
+.stepname { font-family:'Centro Slab Pro Black', Cambria, Georgia, serif;font-size:15px;font-weight:bold; }
+.stepdescription { font-family:font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;font-size:12px; }
+.steptip { font-family:font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;font-size:12px;color:#888; }
+#buttons { width:250px; text-align:center; margin:0 auto; }
+#buttons button { margin:0px 10px; }
